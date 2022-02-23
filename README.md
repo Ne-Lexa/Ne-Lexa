@@ -159,6 +159,22 @@ final class MyProfile implements UserProfile
         </tr>
             <tr>
             <td rowspan="2">
+                <a href="https://github.com/Ne-Lexa/roach-php-bundle"><b>Ne-Lexa/roach-php-bundle</b></a><br/><img alt="Platform" src="https://img.shields.io/badge/PHP-symfony--bundle-blueviolet"/><br/><a href="https://github.com/Ne-Lexa/roach-php-bundle/actions" target="_blank"><img src="https://github.com/Ne-Lexa/roach-php-bundle/actions/workflows/build.yml/badge.svg" alt="Build Status"/></a>            </td>
+                        <td><img alt="Stars" src="https://img.shields.io/github/stars/Ne-Lexa/roach-php-bundle?style=flat-square&amp;labelColor=343b41"/></td>
+                        <td><img alt="Forks" src="https://img.shields.io/github/forks/Ne-Lexa/roach-php-bundle?style=flat-square&amp;labelColor=343b41"/></td>
+                        <td><img alt="Issues" src="https://img.shields.io/github/issues/Ne-Lexa/roach-php-bundle?style=flat-square&amp;labelColor=343b41"/></td>
+                        <td><img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/Ne-Lexa/roach-php-bundle?style=flat-square&amp;labelColor=343b41"/></td>
+                        <td><a href="https://packagist.org/packages/nelexa/roach-php-bundle" target="_blank"><img alt="Packagist Downloads" src="https://img.shields.io/packagist/dt/nelexa/roach-php-bundle?style=flat-square&amp;labelColor=343b41"/></a></td>
+                        <td><a href="https://packagist.org/packages/nelexa/roach-php-bundle" target="_blank"><img alt="Packagist Version" src="https://img.shields.io/packagist/v/nelexa/roach-php-bundle?style=flat-square&amp;labelColor=343b41"/></a></td>
+                        <td><a href="https://packagist.org/packages/nelexa/roach-php-bundle" target="_blank"><img alt="License" src="https://img.shields.io/packagist/l/nelexa/roach-php-bundle?style=flat-square&amp;labelColor=343b41"/></a></td>
+                    </tr>
+        <tr>
+            <td colspan="7">
+                <p>Symfony bundle for roach-php/core</p>
+            </td>
+        </tr>
+            <tr>
+            <td rowspan="2">
                 <a href="https://github.com/Ne-Lexa/http-client-simple-cache"><b>Ne-Lexa/http-client-simple-cache</b></a><br/><img alt="Platform" src="https://img.shields.io/badge/PHP-library-blueviolet"/><br/><a href="https://github.com/Ne-Lexa/http-client-simple-cache/actions" target="_blank"><img src="https://github.com/Ne-Lexa/http-client-simple-cache/workflows/build/badge.svg" alt="Build Status"/></a>            </td>
                         <td><img alt="Stars" src="https://img.shields.io/github/stars/Ne-Lexa/http-client-simple-cache?style=flat-square&amp;labelColor=343b41"/></td>
                         <td><img alt="Forks" src="https://img.shields.io/github/forks/Ne-Lexa/http-client-simple-cache?style=flat-square&amp;labelColor=343b41"/></td>
@@ -187,22 +203,6 @@ final class MyProfile implements UserProfile
         <tr>
             <td colspan="7">
                 <p>PHP Enum implementation</p>
-            </td>
-        </tr>
-            <tr>
-            <td rowspan="2">
-                <a href="https://github.com/Ne-Lexa/roach-php-bundle"><b>Ne-Lexa/roach-php-bundle</b></a><br/><img alt="Platform" src="https://img.shields.io/badge/PHP-symfony--bundle-blueviolet"/><br/><a href="https://github.com/Ne-Lexa/roach-php-bundle/actions" target="_blank"><img src="https://github.com/Ne-Lexa/roach-php-bundle/actions/workflows/build.yml/badge.svg" alt="Build Status"/></a>            </td>
-                        <td><img alt="Stars" src="https://img.shields.io/github/stars/Ne-Lexa/roach-php-bundle?style=flat-square&amp;labelColor=343b41"/></td>
-                        <td><img alt="Forks" src="https://img.shields.io/github/forks/Ne-Lexa/roach-php-bundle?style=flat-square&amp;labelColor=343b41"/></td>
-                        <td><img alt="Issues" src="https://img.shields.io/github/issues/Ne-Lexa/roach-php-bundle?style=flat-square&amp;labelColor=343b41"/></td>
-                        <td><img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/Ne-Lexa/roach-php-bundle?style=flat-square&amp;labelColor=343b41"/></td>
-                        <td><a href="https://packagist.org/packages/nelexa/roach-php-bundle" target="_blank"><img alt="Packagist Downloads" src="https://img.shields.io/packagist/dt/nelexa/roach-php-bundle?style=flat-square&amp;labelColor=343b41"/></a></td>
-                        <td><a href="https://packagist.org/packages/nelexa/roach-php-bundle" target="_blank"><img alt="Packagist Version" src="https://img.shields.io/packagist/v/nelexa/roach-php-bundle?style=flat-square&amp;labelColor=343b41"/></a></td>
-                        <td><a href="https://packagist.org/packages/nelexa/roach-php-bundle" target="_blank"><img alt="License" src="https://img.shields.io/packagist/l/nelexa/roach-php-bundle?style=flat-square&amp;labelColor=343b41"/></a></td>
-                    </tr>
-        <tr>
-            <td colspan="7">
-                <p>Symfony bundle for roach-php/core</p>
             </td>
         </tr>
         </tbody>
