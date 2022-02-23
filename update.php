@@ -215,10 +215,14 @@ $githubClient->authenticate($accessToken, null, $method);
         return $badge;
     }
 
-    private function render(string $templateFile, array $vars)
+    private function render(string $templateFile, array $vars): string
     {
         extract($vars, \EXTR_OVERWRITE);
-        return require $templateFile;
+        ob_start();
+
+        require $templateFile;
+
+        return ob_get_clean();
     }
 
     #[ArrayShape(['headers' => 'string[]', 'rows' => 'array[]'])]
