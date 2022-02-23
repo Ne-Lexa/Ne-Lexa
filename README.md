@@ -79,7 +79,7 @@ final class MyProfile implements UserProfile
     <tbody>
             <tr>
             <td rowspan="2">
-                <a href="https://github.com/Ne-Lexa/php-zip"><b>Ne-Lexa/php-zip</b></a><br/><img alt="Platform" src="https://img.shields.io/badge/PHP-library-blueviolet"/>            </td>
+                <a href="https://github.com/Ne-Lexa/php-zip"><b>Ne-Lexa/php-zip</b></a><br/><img alt="Platform" src="https://img.shields.io/badge/PHP-library-blueviolet"/><br/><a href="https://github.com/Ne-Lexa/php-zip/actions" target="_blank"><img src="https://github.com/Ne-Lexa/php-zip/workflows/build/badge.svg" alt="Build Status"/></a>            </td>
                         <td><img alt="Stars" src="https://img.shields.io/github/stars/Ne-Lexa/php-zip?style=flat-square&amp;labelColor=343b41"/></td>
                         <td><img alt="Forks" src="https://img.shields.io/github/forks/Ne-Lexa/php-zip?style=flat-square&amp;labelColor=343b41"/></td>
                         <td><img alt="Issues" src="https://img.shields.io/github/issues/Ne-Lexa/php-zip?style=flat-square&amp;labelColor=343b41"/></td>
@@ -95,7 +95,7 @@ final class MyProfile implements UserProfile
         </tr>
             <tr>
             <td rowspan="2">
-                <a href="https://github.com/Ne-Lexa/php-byte-buffer"><b>Ne-Lexa/php-byte-buffer</b></a><br/><img alt="Platform" src="https://img.shields.io/badge/PHP-library-blueviolet"/>            </td>
+                <a href="https://github.com/Ne-Lexa/php-byte-buffer"><b>Ne-Lexa/php-byte-buffer</b></a><br/><img alt="Platform" src="https://img.shields.io/badge/PHP-library-blueviolet"/><br/>            </td>
                         <td><img alt="Stars" src="https://img.shields.io/github/stars/Ne-Lexa/php-byte-buffer?style=flat-square&amp;labelColor=343b41"/></td>
                         <td><img alt="Forks" src="https://img.shields.io/github/forks/Ne-Lexa/php-byte-buffer?style=flat-square&amp;labelColor=343b41"/></td>
                         <td><img alt="Issues" src="https://img.shields.io/github/issues/Ne-Lexa/php-byte-buffer?style=flat-square&amp;labelColor=343b41"/></td>
@@ -111,7 +111,7 @@ final class MyProfile implements UserProfile
         </tr>
             <tr>
             <td rowspan="2">
-                <a href="https://github.com/Ne-Lexa/google-play-scraper"><b>Ne-Lexa/google-play-scraper</b></a><br/><img alt="Platform" src="https://img.shields.io/badge/PHP-library-blueviolet"/>            </td>
+                <a href="https://github.com/Ne-Lexa/google-play-scraper"><b>Ne-Lexa/google-play-scraper</b></a><br/><img alt="Platform" src="https://img.shields.io/badge/PHP-library-blueviolet"/><br/><a href="https://github.com/Ne-Lexa/google-play-scraper/actions" target="_blank"><img src="https://github.com/Ne-Lexa/google-play-scraper/workflows/build/badge.svg" alt="Build Status"/></a>            </td>
                         <td><img alt="Stars" src="https://img.shields.io/github/stars/Ne-Lexa/google-play-scraper?style=flat-square&amp;labelColor=343b41"/></td>
                         <td><img alt="Forks" src="https://img.shields.io/github/forks/Ne-Lexa/google-play-scraper?style=flat-square&amp;labelColor=343b41"/></td>
                         <td><img alt="Issues" src="https://img.shields.io/github/issues/Ne-Lexa/google-play-scraper?style=flat-square&amp;labelColor=343b41"/></td>
@@ -127,7 +127,7 @@ final class MyProfile implements UserProfile
         </tr>
             <tr>
             <td rowspan="2">
-                <a href="https://github.com/Ne-Lexa/php-crossplane"><b>Ne-Lexa/php-crossplane</b></a><br/><img alt="Platform" src="https://img.shields.io/badge/PHP-library-blueviolet"/>            </td>
+                <a href="https://github.com/Ne-Lexa/php-crossplane"><b>Ne-Lexa/php-crossplane</b></a><br/><img alt="Platform" src="https://img.shields.io/badge/PHP-library-blueviolet"/><br/><a href="https://github.com/Ne-Lexa/php-crossplane/actions" target="_blank"><img src="https://github.com/Ne-Lexa/php-crossplane/workflows/build/badge.svg" alt="Build Status"/></a>            </td>
                         <td><img alt="Stars" src="https://img.shields.io/github/stars/Ne-Lexa/php-crossplane?style=flat-square&amp;labelColor=343b41"/></td>
                         <td><img alt="Forks" src="https://img.shields.io/github/forks/Ne-Lexa/php-crossplane?style=flat-square&amp;labelColor=343b41"/></td>
                         <td><img alt="Issues" src="https://img.shields.io/github/issues/Ne-Lexa/php-crossplane?style=flat-square&amp;labelColor=343b41"/></td>
@@ -143,7 +143,7 @@ final class MyProfile implements UserProfile
         </tr>
             <tr>
             <td rowspan="2">
-                <a href="https://github.com/Ne-Lexa/RequestDtoBundle"><b>Ne-Lexa/RequestDtoBundle</b></a><br/><img alt="Platform" src="https://img.shields.io/badge/PHP-symfony--bundle-blueviolet"/>            </td>
+                <a href="https://github.com/Ne-Lexa/RequestDtoBundle"><b>Ne-Lexa/RequestDtoBundle</b></a><br/><img alt="Platform" src="https://img.shields.io/badge/PHP-symfony--bundle-blueviolet"/><br/><a href="https://github.com/Ne-Lexa/RequestDtoBundle/actions" target="_blank"><img src="https://github.com/Ne-Lexa/RequestDtoBundle/workflows/build/badge.svg" alt="Build Status"/></a>            </td>
                         <td><img alt="Stars" src="https://img.shields.io/github/stars/Ne-Lexa/RequestDtoBundle?style=flat-square&amp;labelColor=343b41"/></td>
                         <td><img alt="Forks" src="https://img.shields.io/github/forks/Ne-Lexa/RequestDtoBundle?style=flat-square&amp;labelColor=343b41"/></td>
                         <td><img alt="Issues" src="https://img.shields.io/github/issues/Ne-Lexa/RequestDtoBundle?style=flat-square&amp;labelColor=343b41"/></td>
@@ -159,7 +159,7 @@ final class MyProfile implements UserProfile
         </tr>
             <tr>
             <td rowspan="2">
-                <a href="https://github.com/Ne-Lexa/http-client-simple-cache"><b>Ne-Lexa/http-client-simple-cache</b></a><br/><img alt="Platform" src="https://img.shields.io/badge/PHP-library-blueviolet"/>            </td>
+                <a href="https://github.com/Ne-Lexa/http-client-simple-cache"><b>Ne-Lexa/http-client-simple-cache</b></a><br/><img alt="Platform" src="https://img.shields.io/badge/PHP-library-blueviolet"/><br/><a href="https://github.com/Ne-Lexa/http-client-simple-cache/actions" target="_blank"><img src="https://github.com/Ne-Lexa/http-client-simple-cache/workflows/build/badge.svg" alt="Build Status"/></a>            </td>
                         <td><img alt="Stars" src="https://img.shields.io/github/stars/Ne-Lexa/http-client-simple-cache?style=flat-square&amp;labelColor=343b41"/></td>
                         <td><img alt="Forks" src="https://img.shields.io/github/forks/Ne-Lexa/http-client-simple-cache?style=flat-square&amp;labelColor=343b41"/></td>
                         <td><img alt="Issues" src="https://img.shields.io/github/issues/Ne-Lexa/http-client-simple-cache?style=flat-square&amp;labelColor=343b41"/></td>
@@ -175,7 +175,7 @@ final class MyProfile implements UserProfile
         </tr>
             <tr>
             <td rowspan="2">
-                <a href="https://github.com/Ne-Lexa/enum"><b>Ne-Lexa/enum</b></a><br/><img alt="Platform" src="https://img.shields.io/badge/PHP-library-blueviolet"/>            </td>
+                <a href="https://github.com/Ne-Lexa/enum"><b>Ne-Lexa/enum</b></a><br/><img alt="Platform" src="https://img.shields.io/badge/PHP-library-blueviolet"/><br/><a href="https://github.com/Ne-Lexa/enum/actions" target="_blank"><img src="https://github.com/Ne-Lexa/enum/workflows/build/badge.svg" alt="Build Status"/></a>            </td>
                         <td><img alt="Stars" src="https://img.shields.io/github/stars/Ne-Lexa/enum?style=flat-square&amp;labelColor=343b41"/></td>
                         <td><img alt="Forks" src="https://img.shields.io/github/forks/Ne-Lexa/enum?style=flat-square&amp;labelColor=343b41"/></td>
                         <td><img alt="Issues" src="https://img.shields.io/github/issues/Ne-Lexa/enum?style=flat-square&amp;labelColor=343b41"/></td>
@@ -191,7 +191,7 @@ final class MyProfile implements UserProfile
         </tr>
             <tr>
             <td rowspan="2">
-                <a href="https://github.com/Ne-Lexa/roach-php-bundle"><b>Ne-Lexa/roach-php-bundle</b></a><br/><img alt="Platform" src="https://img.shields.io/badge/PHP-symfony--bundle-blueviolet"/>            </td>
+                <a href="https://github.com/Ne-Lexa/roach-php-bundle"><b>Ne-Lexa/roach-php-bundle</b></a><br/><img alt="Platform" src="https://img.shields.io/badge/PHP-symfony--bundle-blueviolet"/><br/><a href="https://github.com/Ne-Lexa/roach-php-bundle/actions" target="_blank"><img src="https://github.com/Ne-Lexa/roach-php-bundle/actions/workflows/build.yml/badge.svg" alt="Build Status"/></a>            </td>
                         <td><img alt="Stars" src="https://img.shields.io/github/stars/Ne-Lexa/roach-php-bundle?style=flat-square&amp;labelColor=343b41"/></td>
                         <td><img alt="Forks" src="https://img.shields.io/github/forks/Ne-Lexa/roach-php-bundle?style=flat-square&amp;labelColor=343b41"/></td>
                         <td><img alt="Issues" src="https://img.shields.io/github/issues/Ne-Lexa/roach-php-bundle?style=flat-square&amp;labelColor=343b41"/></td>
