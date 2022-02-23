@@ -173,9 +173,7 @@ $githubClient->authenticate($accessToken, null, $method);
                 array_map(static fn (string $platform) => str_replace(['-', ' '], ['--', '__'], $platform), $platforms)
             );
 
-            $repository['extra']['badges']['platform'] = '<img alt="Platform" src="https://img.shields.io/badge/' . rawurlencode(
-                $platformPath
-            ) . '"/>';
+            $repository['extra']['badges']['platform'] = '<img alt="Platform" src="https://img.shields.io/badge/' . rawurlencode($platformPath) . '"/>';
         } catch (\JsonException $e) {
             throw new \RuntimeException('Error json decode content "' . $content . '"', 0, $e);
         }
@@ -251,7 +249,8 @@ $githubClient->authenticate($accessToken, null, $method);
                 ],
                 'title' => '<a href="' . $repository['html_url'] . '"><b>' . htmlspecialchars(
                     $repository['full_name']
-                ) . '</b></a><br/>' . $repository['extra']['badges']['platform'],
+                ) . '</b></a><br/>' . $repository['extra']['badges']['platform'] . '<br/>'
+                    . $repository['extra']['badges']['actions'],
                 'description' => $repository['description'] ?? '',
             ];
         }, $repositories);
