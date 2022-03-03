@@ -187,5 +187,19 @@ final class MyProfile implements UserProfile
                 <p>PHP Enum implementation</p>
             </td>
         </tr>
+            <tr>
+            <td rowspan="2">
+                <a href="https://github.com/Ne-Lexa/guzzle-doh-middleware"><b>Ne-Lexa/guzzle-doh-middleware</b></a><br/>            </td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+        <tr>
+            <td colspan="5">
+                <p>A Dns over Https (DoH) middleware for Guzzle &gt;= 6.0</p>
+            </td>
+        </tr>
         </tbody>
 </table>
