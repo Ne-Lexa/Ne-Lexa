@@ -127,11 +127,12 @@ $githubClient->authenticate($accessToken, null, $method);
         $repositoryFullName = $repository['full_name'];
 
         $repository['extra']['badges'] = [
-            'stars' => $this->createBadge('Stars', 'github/stars/' . $repositoryFullName),
-            'forks' => $this->createBadge('Forks', 'github/forks/' . $repositoryFullName),
-            'issues' => $this->createBadge('Issues', 'github/issues/' . $repositoryFullName),
-            'pr' => $this->createBadge('Pull Requests', 'github/issues-pr/' . $repositoryFullName),
+            'stars' => $this->createBadge('Stars', 'github/stars/' . $repositoryFullName, $repository['html_url']),
+            'forks' => $this->createBadge('Forks', 'github/forks/' . $repositoryFullName, $repository['html_url']),
+            'issues' => $this->createBadge('Issues', 'github/issues/' . $repositoryFullName, $repository['html_url'] . '/issues'),
+            'pr' => $this->createBadge('Pull Requests', 'github/issues-pr/' . $repositoryFullName, $repository['html_url'] . '/pulls'),
         ];
+        $repository['extra']['createdAtAgo'] = $this->formatAgoTime($repository['created_at']);
 
         try {
             $json = json_decode($content, true, 512, \JSON_THROW_ON_ERROR);
@@ -173,9 +174,8 @@ $githubClient->authenticate($accessToken, null, $method);
                 array_map(static fn (string $platform) => str_replace(['-', ' '], ['--', '__'], $platform), $platforms)
             );
 
-            $repository['extra']['badges']['platform'] = '<img alt="Platform" src="https://img.shields.io/badge/' . rawurlencode(
-                $platformPath
-            ) . '"/>';
+            $repository['extra']['badges']['platform'] = '<img alt="Platform" src="https://img.shields.io/badge/'
+                . rawurlencode($platformPath) . '"/>';
         } catch (\JsonException $e) {
             throw new \RuntimeException('Error json decode content "' . $content . '"', 0, $e);
         }
@@ -248,7 +248,8 @@ $githubClient->authenticate($accessToken, null, $method);
                 'title' => '<a href="' . $repository['html_url'] . '"><b>' . htmlspecialchars($repository['full_name'])
                     . '</b></a><br/>' . $repository['extra']['badges']['platform']
                     . (!empty($repository['extra']['badges']['version']) ? '<br/>' . $repository['extra']['badges']['version'] : '')
-                    . (!empty($repository['extra']['badges']['actions']) ? '<br/>' . $repository['extra']['badges']['actions'] : ''),
+                    . (!empty($repository['extra']['badges']['actions']) ? '<br/>' . $repository['extra']['badges']['actions'] : '')
+                    . '<br/>🕐 created ' . $repository['extra']['createdAtAgo'],
                 'description' => $repository['description'] ?? '',
             ];
         }, $repositories);
@@ -257,5 +258,31 @@ $githubClient->authenticate($accessToken, null, $method);
             'headers' => $headers,
             'rows' => $rows,
         ];
+    }
+
+    private function formatAgoTime(string $date): string
+    {
+        $createdAt = new \DateTimeImmutable($date);
+        $now = new \DateTimeImmutable();
+
+        $interval = $now->diff($createdAt);
+
+        if ($interval->y > 0) {
+            return $interval->y . ' year' . ($interval->y > 1 ? 's' : '') . ' ago';
+        }
+
+        if ($interval->m > 0) {
+            return $interval->m . ' month' . ($interval->m > 1 ? 's' : '') . ' ago';
+        }
+
+        if ($interval->d > 0) {
+            return $interval->d . ' day' . ($interval->d > 1 ? 's' : '') . ' ago';
+        }
+
+        if ($interval->h > 0) {
+            return $interval->h . ' hour' . ($interval->h > 1 ? 's' : '') . ' ago';
+        }
+
+        return $interval->i . ' minute' . ($interval->i > 1 ? 's' : '') . ' ago';
     }
 })();
