@@ -133,6 +133,7 @@ $githubClient->authenticate($accessToken, null, $method);
             'pr' => $this->createBadge('Pull Requests', 'github/issues-pr/' . $repositoryFullName, $repository['html_url'] . '/pulls'),
         ];
         $repository['extra']['createdAtAgo'] = $this->formatAgoTime($repository['created_at']);
+        $repository['extra']['pushedAtAgo'] = $this->formatAgoTime($repository['pushed_at']);
 
         try {
             $json = json_decode($content, true, 512, \JSON_THROW_ON_ERROR);
@@ -249,7 +250,8 @@ $githubClient->authenticate($accessToken, null, $method);
                     . '</b></a><br/>' . $repository['extra']['badges']['platform']
                     . (!empty($repository['extra']['badges']['version']) ? '<br/>' . $repository['extra']['badges']['version'] : '')
                     . (!empty($repository['extra']['badges']['actions']) ? '<br/>' . $repository['extra']['badges']['actions'] : '')
-                    . '<br/>🕐 created ' . $repository['extra']['createdAtAgo'],
+                    . '<br/>🕐 created ' . $repository['extra']['createdAtAgo']
+                    . '<br/>🕐 updated ' . $repository['extra']['pushedAtAgo'],
                 'description' => $repository['description'] ?? '',
             ];
         }, $repositories);
