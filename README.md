@@ -91,20 +91,6 @@ final class MyProfile implements UserProfile
         </tr>
             <tr>
             <td rowspan="2">
-                <a href="https://github.com/Ne-Lexa/php-byte-buffer"><b>Ne-Lexa/php-byte-buffer</b></a><br/><img alt="Platform" src="https://img.shields.io/badge/PHP-library-blueviolet"/><br/><a href="https://packagist.org/packages/nelexa/buffer" target="_blank"><img alt="Packagist Version" src="https://img.shields.io/packagist/v/nelexa/buffer?style=flat-square&amp;labelColor=343b41"/></a><br/>🕐 created 5 years ago<br/>🕐 updated 1 year ago            </td>
-                        <td><a href="https://packagist.org/packages/nelexa/buffer" target="_blank"><img alt="Packagist Downloads" src="https://img.shields.io/packagist/dt/nelexa/buffer?style=flat-square&amp;labelColor=343b41"/></a></td>
-                        <td><a href="https://github.com/Ne-Lexa/php-byte-buffer" target="_blank"><img alt="Stars" src="https://img.shields.io/github/stars/Ne-Lexa/php-byte-buffer?style=flat-square&amp;labelColor=343b41"/></a></td>
-                        <td><a href="https://github.com/Ne-Lexa/php-byte-buffer" target="_blank"><img alt="Forks" src="https://img.shields.io/github/forks/Ne-Lexa/php-byte-buffer?style=flat-square&amp;labelColor=343b41"/></a></td>
-                        <td><a href="https://github.com/Ne-Lexa/php-byte-buffer/issues" target="_blank"><img alt="Issues" src="https://img.shields.io/github/issues/Ne-Lexa/php-byte-buffer?style=flat-square&amp;labelColor=343b41"/></a></td>
-                        <td><a href="https://github.com/Ne-Lexa/php-byte-buffer/pulls" target="_blank"><img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/Ne-Lexa/php-byte-buffer?style=flat-square&amp;labelColor=343b41"/></a></td>
-                    </tr>
-        <tr>
-            <td colspan="5">
-                <p>Reading And Writing Binary Data (incl. primitive types, ex. byte, ubyte, short, ushort, int, uint, long, float, double). The classes also help with porting the I/O operations of the JAVA code.</p>
-            </td>
-        </tr>
-            <tr>
-            <td rowspan="2">
                 <a href="https://github.com/Ne-Lexa/google-play-scraper"><b>Ne-Lexa/google-play-scraper</b></a><br/><img alt="Platform" src="https://img.shields.io/badge/PHP-library-blueviolet"/><br/><a href="https://packagist.org/packages/nelexa/google-play-scraper" target="_blank"><img alt="Packagist Version" src="https://img.shields.io/packagist/v/nelexa/google-play-scraper?style=flat-square&amp;labelColor=343b41"/></a><br/><a href="https://github.com/Ne-Lexa/google-play-scraper/actions" target="_blank"><img src="https://github.com/Ne-Lexa/google-play-scraper/workflows/build/badge.svg" alt="Build Status"/></a><br/>🕐 created 3 years ago<br/>🕐 updated 2 months ago            </td>
                         <td><a href="https://packagist.org/packages/nelexa/google-play-scraper" target="_blank"><img alt="Packagist Downloads" src="https://img.shields.io/packagist/dt/nelexa/google-play-scraper?style=flat-square&amp;labelColor=343b41"/></a></td>
                         <td><a href="https://github.com/Ne-Lexa/google-play-scraper" target="_blank"><img alt="Stars" src="https://img.shields.io/github/stars/Ne-Lexa/google-play-scraper?style=flat-square&amp;labelColor=343b41"/></a></td>
@@ -115,6 +101,20 @@ final class MyProfile implements UserProfile
         <tr>
             <td colspan="5">
                 <p>PHP scraper to get data from Google Play </p>
+            </td>
+        </tr>
+            <tr>
+            <td rowspan="2">
+                <a href="https://github.com/Ne-Lexa/php-byte-buffer"><b>Ne-Lexa/php-byte-buffer</b></a><br/><img alt="Platform" src="https://img.shields.io/badge/PHP-library-blueviolet"/><br/><a href="https://packagist.org/packages/nelexa/buffer" target="_blank"><img alt="Packagist Version" src="https://img.shields.io/packagist/v/nelexa/buffer?style=flat-square&amp;labelColor=343b41"/></a><br/>🕐 created 5 years ago<br/>🕐 updated 1 year ago            </td>
+                        <td><a href="https://packagist.org/packages/nelexa/buffer" target="_blank"><img alt="Packagist Downloads" src="https://img.shields.io/packagist/dt/nelexa/buffer?style=flat-square&amp;labelColor=343b41"/></a></td>
+                        <td><a href="https://github.com/Ne-Lexa/php-byte-buffer" target="_blank"><img alt="Stars" src="https://img.shields.io/github/stars/Ne-Lexa/php-byte-buffer?style=flat-square&amp;labelColor=343b41"/></a></td>
+                        <td><a href="https://github.com/Ne-Lexa/php-byte-buffer" target="_blank"><img alt="Forks" src="https://img.shields.io/github/forks/Ne-Lexa/php-byte-buffer?style=flat-square&amp;labelColor=343b41"/></a></td>
+                        <td><a href="https://github.com/Ne-Lexa/php-byte-buffer/issues" target="_blank"><img alt="Issues" src="https://img.shields.io/github/issues/Ne-Lexa/php-byte-buffer?style=flat-square&amp;labelColor=343b41"/></a></td>
+                        <td><a href="https://github.com/Ne-Lexa/php-byte-buffer/pulls" target="_blank"><img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/Ne-Lexa/php-byte-buffer?style=flat-square&amp;labelColor=343b41"/></a></td>
+                    </tr>
+        <tr>
+            <td colspan="5">
+                <p>Reading And Writing Binary Data (incl. primitive types, ex. byte, ubyte, short, ushort, int, uint, long, float, double). The classes also help with porting the I/O operations of the JAVA code.</p>
             </td>
         </tr>
             <tr>
