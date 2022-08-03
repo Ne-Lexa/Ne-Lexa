@@ -23,7 +23,7 @@ final class MyProfile implements UserProfile
         public readonly int $id = <?= $user['id']; ?>,
         public readonly string $name = '<?= addslashes($user['name']); ?>',
         public readonly string $username = '<?= addslashes($user['login']); ?>',
-        public readonly int $age = <?= $age; ?>
+        public readonly int $age = <?= $age; ?>,
     ) {
     }
 
