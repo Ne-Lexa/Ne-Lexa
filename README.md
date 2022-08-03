@@ -15,7 +15,8 @@ final class MyProfile implements UserProfile
         public readonly int $id = 17830391,
         public readonly string $name = 'Pisarev Alexey',
         public readonly string $username = 'Ne-Lexa',
-        public readonly int $age = 35    ) {
+        public readonly int $age = 35,
+    ) {
     }
 
     public function getSkills(): array
@@ -91,7 +92,7 @@ final class MyProfile implements UserProfile
         </tr>
             <tr>
             <td rowspan="2">
-                <a href="https://github.com/Ne-Lexa/google-play-scraper"><b>Ne-Lexa/google-play-scraper</b></a><br/><img alt="Platform" src="https://img.shields.io/badge/PHP-library-blueviolet"/><br/><a href="https://packagist.org/packages/nelexa/google-play-scraper" target="_blank"><img alt="Packagist Version" src="https://img.shields.io/packagist/v/nelexa/google-play-scraper?style=flat-square&amp;labelColor=343b41"/></a><br/><a href="https://github.com/Ne-Lexa/google-play-scraper/actions" target="_blank"><img src="https://github.com/Ne-Lexa/google-play-scraper/workflows/build/badge.svg" alt="Build Status"/></a><br/>🕐 created 3 years ago<br/>🕐 updated 12 minutes ago            </td>
+                <a href="https://github.com/Ne-Lexa/google-play-scraper"><b>Ne-Lexa/google-play-scraper</b></a><br/><img alt="Platform" src="https://img.shields.io/badge/PHP-library-blueviolet"/><br/><a href="https://packagist.org/packages/nelexa/google-play-scraper" target="_blank"><img alt="Packagist Version" src="https://img.shields.io/packagist/v/nelexa/google-play-scraper?style=flat-square&amp;labelColor=343b41"/></a><br/><a href="https://github.com/Ne-Lexa/google-play-scraper/actions" target="_blank"><img src="https://github.com/Ne-Lexa/google-play-scraper/workflows/build/badge.svg" alt="Build Status"/></a><br/>🕐 created 3 years ago<br/>🕐 updated 15 minutes ago            </td>
                         <td><a href="https://packagist.org/packages/nelexa/google-play-scraper" target="_blank"><img alt="Packagist Downloads" src="https://img.shields.io/packagist/dt/nelexa/google-play-scraper?style=flat-square&amp;labelColor=343b41"/></a></td>
                         <td><a href="https://github.com/Ne-Lexa/google-play-scraper" target="_blank"><img alt="Stars" src="https://img.shields.io/github/stars/Ne-Lexa/google-play-scraper?style=flat-square&amp;labelColor=343b41"/></a></td>
                         <td><a href="https://github.com/Ne-Lexa/google-play-scraper" target="_blank"><img alt="Forks" src="https://img.shields.io/github/forks/Ne-Lexa/google-play-scraper?style=flat-square&amp;labelColor=343b41"/></a></td>
