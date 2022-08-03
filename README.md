@@ -11,17 +11,11 @@ namespace Nelexa;
 
 final class MyProfile implements UserProfile
 {
-    public readonly int $id;
-    public readonly string $name;
-    public readonly string $username;
-    public readonly int $age;
-
-    public function __construct()
-    {
-        $this->id = 17830391;
-        $this->name = 'Pisarev Alexey';
-        $this->username = 'Ne-Lexa';
-        $this->age = 35;
+    public function __construct(
+        public readonly int $id = 17830391,
+        public readonly string $name = 'Pisarev Alexey',
+        public readonly string $username = 'Ne-Lexa',
+        public readonly int $age = 35    ) {
     }
 
     public function getSkills(): array
@@ -43,10 +37,16 @@ final class MyProfile implements UserProfile
             \Framework\Frontend\Javascript\React::class => ['versions' => '^16.13 | ^17'],
             \Framework\Fullstack\NextJS::class => ['versions' => '^10.2'],
 
-            \Frontend\Webpack::class => ['versions' => '^4 | ^5'],
-            \Frontend\Gulp::class => ['versions' => '^3.9 | ^4.0'],
+            \Tools\Webpack::class => ['versions' => '^4 | ^5'],
+            \Tools\Gulp::class => ['versions' => '^3.9 | ^4.0'],
+            \Tools\Deptrac::class => ['versions' => '*'],
+            \Tools\PhpCsFixer::class => ['versions' => '*'],
+            \Tools\Infection::class => ['versions' => '*'],
+            \Tools\Docker::class => ['versions' => '*'],
+            \Tools\DockerCompose::class => ['versions' => '^1 | ^2'],
 
             \Database\MySQL::class => ['versions' => '~5.1 | ~5.5 | ~5.7 | ^8.0'],
+            \Database\PostgreSQL::class => ['versions' => '^12 | ^14'],
             \Database\SQLite::class => ['versions' => '^3.8'],
             \Database\MongoDB::class => ['versions' => '^2.2 | ^3.0 | ^4.0'],
 
@@ -91,7 +91,7 @@ final class MyProfile implements UserProfile
         </tr>
             <tr>
             <td rowspan="2">
-                <a href="https://github.com/Ne-Lexa/google-play-scraper"><b>Ne-Lexa/google-play-scraper</b></a><br/><img alt="Platform" src="https://img.shields.io/badge/PHP-library-blueviolet"/><br/><a href="https://packagist.org/packages/nelexa/google-play-scraper" target="_blank"><img alt="Packagist Version" src="https://img.shields.io/packagist/v/nelexa/google-play-scraper?style=flat-square&amp;labelColor=343b41"/></a><br/><a href="https://github.com/Ne-Lexa/google-play-scraper/actions" target="_blank"><img src="https://github.com/Ne-Lexa/google-play-scraper/workflows/build/badge.svg" alt="Build Status"/></a><br/>🕐 created 3 years ago<br/>🕐 updated 1 month ago            </td>
+                <a href="https://github.com/Ne-Lexa/google-play-scraper"><b>Ne-Lexa/google-play-scraper</b></a><br/><img alt="Platform" src="https://img.shields.io/badge/PHP-library-blueviolet"/><br/><a href="https://packagist.org/packages/nelexa/google-play-scraper" target="_blank"><img alt="Packagist Version" src="https://img.shields.io/packagist/v/nelexa/google-play-scraper?style=flat-square&amp;labelColor=343b41"/></a><br/><a href="https://github.com/Ne-Lexa/google-play-scraper/actions" target="_blank"><img src="https://github.com/Ne-Lexa/google-play-scraper/workflows/build/badge.svg" alt="Build Status"/></a><br/>🕐 created 3 years ago<br/>🕐 updated 12 minutes ago            </td>
                         <td><a href="https://packagist.org/packages/nelexa/google-play-scraper" target="_blank"><img alt="Packagist Downloads" src="https://img.shields.io/packagist/dt/nelexa/google-play-scraper?style=flat-square&amp;labelColor=343b41"/></a></td>
                         <td><a href="https://github.com/Ne-Lexa/google-play-scraper" target="_blank"><img alt="Stars" src="https://img.shields.io/github/stars/Ne-Lexa/google-play-scraper?style=flat-square&amp;labelColor=343b41"/></a></td>
                         <td><a href="https://github.com/Ne-Lexa/google-play-scraper" target="_blank"><img alt="Forks" src="https://img.shields.io/github/forks/Ne-Lexa/google-play-scraper?style=flat-square&amp;labelColor=343b41"/></a></td>
