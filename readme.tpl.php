@@ -19,17 +19,12 @@ namespace Nelexa;
 
 final class MyProfile implements UserProfile
 {
-    public readonly int $id;
-    public readonly string $name;
-    public readonly string $username;
-    public readonly int $age;
-
-    public function __construct()
-    {
-        $this->id = <?= $user['id']; ?>;
-        $this->name = '<?= addslashes($user['name']); ?>';
-        $this->username = '<?= addslashes($user['login']); ?>';
-        $this->age = <?= $age; ?>;
+    public function __construct(
+        public readonly int $id = <?= $user['id']; ?>,
+        public readonly string $name = '<?= addslashes($user['name']); ?>',
+        public readonly string $username = '<?= addslashes($user['login']); ?>',
+        public readonly int $age = <?= $age; ?>
+    ) {
     }
 
     public function getSkills(): array
@@ -51,10 +46,16 @@ final class MyProfile implements UserProfile
             \Framework\Frontend\Javascript\React::class => ['versions' => '^16.13 | ^17'],
             \Framework\Fullstack\NextJS::class => ['versions' => '^10.2'],
 
-            \Frontend\Webpack::class => ['versions' => '^4 | ^5'],
-            \Frontend\Gulp::class => ['versions' => '^3.9 | ^4.0'],
+            \Tools\Webpack::class => ['versions' => '^4 | ^5'],
+            \Tools\Gulp::class => ['versions' => '^3.9 | ^4.0'],
+            \Tools\Deptrac::class => ['versions' => '*'],
+            \Tools\PhpCsFixer::class => ['versions' => '*'],
+            \Tools\Infection::class => ['versions' => '*'],
+            \Tools\Docker::class => ['versions' => '*'],
+            \Tools\DockerCompose::class => ['versions' => '^1 | ^2'],
 
             \Database\MySQL::class => ['versions' => '~5.1 | ~5.5 | ~5.7 | ^8.0'],
+            \Database\PostgreSQL::class => ['versions' => '^12 | ^14'],
             \Database\SQLite::class => ['versions' => '^3.8'],
             \Database\MongoDB::class => ['versions' => '^2.2 | ^3.0 | ^4.0'],
 
