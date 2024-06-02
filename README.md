@@ -106,7 +106,7 @@ final class MyProfile implements UserProfile
         </tr>
             <tr>
             <td rowspan="2">
-                <a href="https://github.com/Ne-Lexa/php-byte-buffer"><b>Ne-Lexa/php-byte-buffer</b></a><br/><img alt="Platform" src="https://img.shields.io/badge/PHP-library-blueviolet"/><br/><a href="https://packagist.org/packages/nelexa/buffer" target="_blank"><img alt="Packagist Version" src="https://img.shields.io/packagist/v/nelexa/buffer?style=flat-square&amp;labelColor=343b41"/></a><br/>🕐 created 7 years ago<br/>🕐 updated 3 years ago            </td>
+                <a href="https://github.com/Ne-Lexa/php-byte-buffer"><b>Ne-Lexa/php-byte-buffer</b></a><br/><img alt="Platform" src="https://img.shields.io/badge/PHP-library-blueviolet"/><br/><a href="https://packagist.org/packages/nelexa/buffer" target="_blank"><img alt="Packagist Version" src="https://img.shields.io/packagist/v/nelexa/buffer?style=flat-square&amp;labelColor=343b41"/></a><br/>🕐 created 7 years ago<br/>🕐 updated 4 years ago            </td>
                         <td><a href="https://packagist.org/packages/nelexa/buffer" target="_blank"><img alt="Packagist Downloads" src="https://img.shields.io/packagist/dt/nelexa/buffer?style=flat-square&amp;labelColor=343b41"/></a></td>
                         <td><a href="https://github.com/Ne-Lexa/php-byte-buffer" target="_blank"><img alt="Stars" src="https://img.shields.io/github/stars/Ne-Lexa/php-byte-buffer?style=flat-square&amp;labelColor=343b41"/></a></td>
                         <td><a href="https://github.com/Ne-Lexa/php-byte-buffer" target="_blank"><img alt="Forks" src="https://img.shields.io/github/forks/Ne-Lexa/php-byte-buffer?style=flat-square&amp;labelColor=343b41"/></a></td>
