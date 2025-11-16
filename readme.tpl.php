@@ -31,6 +31,7 @@ final class MyProfile implements UserProfile
     {
         return [
             \Language\Php::class => ['versions' => '^4 | ^5 | ^7 | ^8'],
+            \Language\Node::class => ['versions' => '>= 10'],
             \Language\Javascript::class => ['versions' => 'ES3 | ES5 | ES6 | ES7 | ES8 | ES9 | ES 10 | ES11'],
             \Language\Typescript::class => ['versions' => '^4'],
             \Language\Html::class => ['versions' => '^4 | ^5 | dev-xhtml | dev-wml'],
@@ -41,9 +42,11 @@ final class MyProfile implements UserProfile
             \Language\Xml::class => ['versions' => '*'],
             \Language\Json::class => ['versions' => '*'],
 
+            \Framework\Backend\Php\NestJs::class => ['versions' => '^8 | ^9 |^10'],
             \Framework\Backend\Php\Symfony::class => ['versions' => '^3 | ^4 | ^5 | ^6'],
             \Framework\Backend\Php\Yii::class => ['versions' => '~1.1 | ~2.0'],
-            \Framework\Frontend\Javascript\React::class => ['versions' => '^16.13 | ^17'],
+            \Framework\Frontend\TypeScript\React::class => ['versions' => '^16.13 | ^17'],
+            \Framework\Nativce\TypeScript\ReactNative::class => ['versions' => '>= 0.75'],
             \Framework\Fullstack\NextJS::class => ['versions' => '^10.2'],
 
             \Tools\Webpack::class => ['versions' => '^4 | ^5'],
