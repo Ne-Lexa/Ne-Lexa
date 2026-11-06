@@ -1,6 +1,6 @@
-<h1 align="center">Привет! I'm Pisarev Alexey & I ❤ code.</h1>
+<h1 align="center">Привет! I'm Alexey Pisarev & I ❤ code.</h1>
 
-<h2 align="center">Fullstack developer (PHP, JavaScript, React, Java, Bash)</h2>
+<h2 align="center">Fullstack developer (JS/TS, PHP, React, Java, Bash, etc)</h2>
 
 ```php
 <?php
@@ -13,7 +13,7 @@ final class MyProfile implements UserProfile
 {
     public function __construct(
         public readonly int $id = 17830391,
-        public readonly string $name = 'Pisarev Alexey',
+        public readonly string $name = 'Alexey Pisarev',
         public readonly string $username = 'Ne-Lexa',
         public readonly int $age = 40,
     ) {
@@ -81,7 +81,7 @@ final class MyProfile implements UserProfile
     <tbody>
             <tr>
             <td rowspan="2">
-                <a href="https://github.com/Ne-Lexa/php-zip"><b>Ne-Lexa/php-zip</b></a><br/><img alt="Platform" src="https://img.shields.io/badge/PHP-library-blueviolet"/><br/><a href="https://packagist.org/packages/nelexa/zip" target="_blank"><img alt="Packagist Version" src="https://img.shields.io/packagist/v/nelexa/zip?style=flat-square&amp;labelColor=343b41"/></a><br/><a href="https://github.com/Ne-Lexa/php-zip/actions" target="_blank"><img src="https://github.com/Ne-Lexa/php-zip/workflows/build/badge.svg" alt="Build Status"/></a><br/>🕐 created 10 years ago<br/>🕐 updated 5 hours ago            </td>
+                <a href="https://github.com/Ne-Lexa/php-zip"><b>Ne-Lexa/php-zip</b></a><br/><img alt="Platform" src="https://img.shields.io/badge/PHP-library-blueviolet"/><br/><a href="https://packagist.org/packages/nelexa/zip" target="_blank"><img alt="Packagist Version" src="https://img.shields.io/packagist/v/nelexa/zip?style=flat-square&amp;labelColor=343b41"/></a><br/><a href="https://github.com/Ne-Lexa/php-zip/actions" target="_blank"><img src="https://github.com/Ne-Lexa/php-zip/workflows/build/badge.svg" alt="Build Status"/></a><br/>🕐 created 10 years ago<br/>🕐 updated 14 hours ago            </td>
                         <td><a href="https://packagist.org/packages/nelexa/zip" target="_blank"><img alt="Packagist Downloads" src="https://img.shields.io/packagist/dt/nelexa/zip?style=flat-square&amp;labelColor=343b41"/></a></td>
                         <td><a href="https://github.com/Ne-Lexa/php-zip" target="_blank"><img alt="Stars" src="https://img.shields.io/github/stars/Ne-Lexa/php-zip?style=flat-square&amp;labelColor=343b41"/></a></td>
                         <td><a href="https://github.com/Ne-Lexa/php-zip" target="_blank"><img alt="Forks" src="https://img.shields.io/github/forks/Ne-Lexa/php-zip?style=flat-square&amp;labelColor=343b41"/></a></td>
